@@ -1,11 +1,5 @@
 ## Description
-This document is an attempt to observe the classifier/predictor described in the manuscript Fronza R Lucic B, "Spatial-temporal variations of atmospheric factors contribute to SARS-CoV-2 outbreak" in predicting the escalation risks of the SARS-Cov-2  in 154 spots in the major European countries.
-
-## Artefacts and their usage
-In the folder `Figures` we regularly place a heatmap called `heatmap2020MMDD.pdf` and a dendrogram `dendro2020MMDD.pdf` where `MMDD` the last updating timepoint.
-
-### The heatmap
-The heatmap represents a graphical illustration of the evolution of the expected escalation in all the areas under surveys. Each row represents the expectation for a particular region as a vector of comulative predictions (escalation vector; no escalation=0/yellow,escalation=1-50/red gradient). Each column represents the likely escalation at that day.
-### The dendrogram
-
-The dendrogram combines the regions based on a hierarchical cluster derived from the patterns of the escalation vectors. We predefined the number of groups up to 7.
+This document is an effort to follow temporally the classifier/predictor described in the manuscript *Fronza R Lucic B*, "**Spatial-temporal variations of atmospheric factors contribute to SARS-CoV-2 outbreak**". It is predicting the escalation of the SARS-Cov-2 in 154 spots in the four European countries.
+### The map
+In the folder `Figures`, we regularly place an animated gif map that shows the likelihood of an outbreak given the concentration of PM2.5 and ozone in the previous month.
+The map represents a graphical illustration of the evolution of the expected escalation in all the areas under surveys. Each point on the map represents the location of the main city in the examined area. Daily, fifteen predictions were performed on each area, and the ratio r=#Escalation/#predictions is determined as a simple measure of the predicted risk of an escalation. The size of the point represents this risk. If the risk is lower or equal than 0.2 ( *r<=0.2*) the point is green; if the risk is comprised between 0.2 and 0.5 ( *0.2 < r <= 0.5*) the point is yellow; if the risk is bigger than 0.5 ( *r > 0.5*) the point is red. This last value matches the notion that the likelihood of an escalation is bigger than 1.
