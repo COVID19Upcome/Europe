@@ -4,10 +4,10 @@ This repository is created to accompany the classifier/predictor described in th
 ### The map
 In the folder `Figures`, we regularly place an animated gif map that shows the risk of an outbreak given a measure of the concentration of PM2.5 and ozone in the previous month.
 
-The map represents a graphical illustration of the evolution of the escalation predicted by the model, in all the areas under surveys. Each point on the map represents the location of the main city in the examined area. Daily, fifteen predictions were performed on each area. A prediction can be 0 (no escalation conditions) and 1 (escalation conditions), and the ratio 
+The map represents a graphical illustration of the evolution of the escalation predicted by the model, in all the areas under surveys. Each point on the map represents the location of the main city in the examined area. Daily, fifteen predictions were performed on each area. A prediction can be 0 (no escalation conditions) or 1 (escalation conditions), and the ratio 
 
 ~~~
-         # Escalation
+         # Escalations
 r = ------------------------
     # Total Predictions (50)
 ~~~
