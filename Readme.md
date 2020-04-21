@@ -1,6 +1,8 @@
 ## Description
 This repository is created to accompany the classifier/predictor described in the manuscript *Fronza R Lucic B*, "**Spatial-temporal variations of atmospheric factors contribute to SARS-CoV-2 outbreak**". It contains the daily predictions of the simple ANN model on the escalation risk of the SARS-Cov-2 in 154 spots in the major European countries.
 
+The model is trained using both PM2.5 and ozone concentration. We found that a threshold effect, due to the PM2.5 level (PM2.5 < 30 ug/m3), abolish the ozone predictive capacity. We showed in the study that in the period under survey (21.02-18.03), the PM2.5 concentration in southern Italian regions (latitude < 41.5N) and in most of the European regions, are under this threshold, making the predictions in those areas rich in false positives (false escalation). The model with both the predictive variables is safer as it overestimates the escalating conditions (red points).
+
 ### The map
 In the folder `Figures`, we regularly place the png daily maps and an animated gif map that shows the risk of an outbreak given a measure of the concentration of PM2.5 and ozone in the previous month.
 
