@@ -226,3 +226,7 @@ TSWLatexianTemp*
 
 # Vim temporary files
 .*.swp
+
+# R history adn data
+.RData
+.Rhistory
