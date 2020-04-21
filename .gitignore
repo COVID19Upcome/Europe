@@ -1,10 +1,3 @@
-## Already a GIT repo
-progetto-privacy-as-a-service/
-
-## Da non versionare
-cnil/
-seminario-CNA-ottobre-2019/
-
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
@@ -28,10 +21,6 @@ seminario-CNA-ottobre-2019/
 # *.ps
 # *.eps
 # *.pdf
-
-## Generated if empty string is given at "Please type another file name
-for output:"
-.pdf
 
 ## Bibliography auxiliary files (bibtex/biblatex/biber):
 *.bbl

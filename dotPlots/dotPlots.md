@@ -1,4 +1,4 @@
-**This folder, not related with the manuscript**
+**This folder is not related with the manuscript**  *Fronza R Lucic B*, **"Spatial-temporal variations of atmospheric factors contribute to SARS-CoV-2 outbreak"**
 
 We speculate here on the news, that report that the Nobel laureate Luc Montagnier clains that novel coronavirus genome has HIV elements.
 
