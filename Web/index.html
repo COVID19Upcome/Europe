@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>bamboo demo</title>
+    <link rel="stylesheet" type="text/css" href="css/bamboo.css">
+    <script type="text/javascript" src="js/bamboo.js"></script>
+    <style type="text/css">
+    .demo {
+        margin: auto;
+        width: 480px;
+        height: 480px;
+        overflow: hidden;
+        border: 10px solid #fefefe;
+        box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, .1);
+    }
+
+    .out-nav {
+        text-align: center;
+    }
+
+    .out-nav>i {
+        display: inline-block;
+        margin: 4px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: 1px solid #aaa;
+    }
+
+    .out-nav>i.focus {
+        background: #ff0;
+    }
+
+    .out-btn {
+        text-align: center;
+    }
+
+    .out-btn>button {
+        margin: 2px;
+        width: 100px;
+        height: 35px;
+        outline: 0;
+        border: 0;
+        background: #479FA4;
+        color: #fefefe;
+        font-size: 14px;
+        border-radius: 4px;
+        border-top: 2px solid #76C3C1;
+        border-bottom: 2px solid #404E4F;
+
+    }
+
+    .out-arrow>button:hover {
+        background: #378F94;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="demo">
+        <div class="slides">
+            <div><img src="../Figures/map01.png"></div>
+<div><img src="../Figures/map02.png"></div>
+<div><img src="../Figures/map03.png"></div>
+<div><img src="../Figures/map04.png"></div>
+<div><img src="../Figures/map05.png"></div>
+<div><img src="../Figures/map06.png"></div>
+<div><img src="../Figures/map07.png"></div>
+<div><img src="../Figures/map08.png"></div>
+<div><img src="../Figures/map09.png"></div>
+<div><img src="../Figures/map10.png"></div>
+<div><img src="../Figures/map11.png"></div>
+<div><img src="../Figures/map12.png"></div>
+<div><img src="../Figures/map13.png"></div>
+<div><img src="../Figures/map14.png"></div>
+<div><img src="../Figures/map15.png"></div>
+<div><img src="../Figures/map16.png"></div>
+<div><img src="../Figures/map17.png"></div>
+<div><img src="../Figures/map18.png"></div>
+<div><img src="../Figures/map19.png"></div>
+<div><img src="../Figures/map20.png"></div>
+<div><img src="../Figures/map21.png"></div>
+<div><img src="../Figures/map22.png"></div>
+<div><img src="../Figures/map23.png"></div>
+<div><img src="../Figures/map24.png"></div>
+<div><img src="../Figures/map25.png"></div>
+<div><img src="../Figures/map26.png"></div>
+<div><img src="../Figures/map27.png"></div>
+<div><img src="../Figures/map28.png"></div>
+<div><img src="../Figures/map29.png"></div>
+<div><img src="../Figures/map30.png"></div>
+<div><img src="../Figures/map31.png"></div>
+<div><img src="../Figures/map32.png"></div>
+<div><img src="../Figures/map33.png"></div>
+<div><img src="../Figures/map34.png"></div>
+        </div>
+    </div>
+    <div>
+        <div class="out-nav">
+            <i></i> 
+<i></i> 
+<i></i> 
+<i></i> 
+<i></i> 
+<i></i> 
+<i></i> 
+<i></i> 
+<i></i> 
+<i></i> 
+<i></i> 
+<i></i> 
+<i></i> 
+<i></i> 
+<i></i> 
+<i></i> 
+<i></i> 
+<i></i> 
+<i></i> 
+<i></i> 
+<i></i> 
+<i></i> 
+<i></i> 
+<i></i> 
+<i></i> 
+<i></i> 
+<i></i> 
+<i></i> 
+<i></i> 
+<i></i> 
+<i></i> 
+<i></i> 
+<i></i> 
+<i></i> 
+        </div>
+        <div class="out-btn">
+            <button class="out-prev">prev</button>
+            <button class="out-next">next</button>
+        </div>
+    </div>
+    <script type="text/javascript">
+    var element = document.querySelector('.demo');
+    var slideshow = bamboo(element, 'fade', {
+        autoPlay: false,
+        dots: document.querySelector('.out-nav'),
+        prev: document.querySelector('.out-prev'),
+        next: document.querySelector('.out-next'),
+    });
+    </script>
+</body>
+
+</html>
