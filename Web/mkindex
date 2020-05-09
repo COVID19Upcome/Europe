@@ -1,6 +1,6 @@
 #!/bin/bash
 
-IMGPATH="../Figures"
+IMGPATH="../outbrake_predictions"
 IMGNUMBER=$(ls $IMGPATH/map*png | wc -l)
 IMGLISTID=$(seq -w 1 $IMGNUMBER)
 IMGLISTNAMES=$(for i in $IMGLISTID; do echo map$i.png; done;)
