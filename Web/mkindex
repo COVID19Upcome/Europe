@@ -3,7 +3,7 @@
 IMGPATH="../outbrake_predictions"
 IMGNUMBER=$(ls $IMGPATH/map*png | wc -l)
 IMGLISTID=$(seq -w 1 $IMGNUMBER)
-IMGLISTNAMES=$(for i in $IMGLISTID; do echo map$i.png; done;)
+IMGLISTNAMES=$(for i in $IMGLISTID; do echo map${i#0}.png; done;)
 SLIDES=$(for i in $IMGLISTNAMES; do echo '<div><img src="'$IMGPATH/$i'"></div>'; done;)
 NAVOUT=$(for i in $IMGLISTID; do echo '<i></i> '; done;)
 
