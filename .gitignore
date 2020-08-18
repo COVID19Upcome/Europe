@@ -228,5 +228,5 @@ TSWLatexianTemp*
 .*.swp
 
 # R history adn data
-.RData
-.Rhistory
+.RData*
+.Rhistory*
