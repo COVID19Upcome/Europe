@@ -1,4 +1,7 @@
 Readme
+## Updates
+Due to uprise of the infection rate we decided to intensify the predictions rate to about twice a week. 
+As we have more than 7 months of daily observations, we combined all the prediction into a single file as a video in order to apreciate the spatio-temporal dynamic of the infection.
 
 ## Description
 This repository is created to accompany the classifier/predictor described in the manuscript *Fronza R Lucic B*, "**Spatial-temporal variations of atmospheric factors contribute to SARS-CoV-2 outbreak**". It contains the daily predictions of the simple ANN model on the escalation risk of the SARS-Cov-2 in 154 spots in the major European countries.
@@ -25,3 +28,14 @@ The size and color of a point represents this risk:
 - if the risk is bigger than 0.5 ( *r > 0.5*) the point is red. 
 
 This last value matches the notion that the likelihood of an escalation in a particular region is bigger than 1 if more than half of the 50 trials are one.
+
+## Warnings
+The results of this examination represent an attempt to find underlying variables that drive the spatial and temporal SARS-Cov-2 activity. The model used is still at an elementary stage, where no data conditioning is made (it is also a remarkable aspect). 
+
+The temporal pattern of the predictions is accurate and follow quite well the general activity of the virus. It is clear the synchronicity between the prediction and the viral activity. 
+
+The geographical pattern is less precise and can be seen as the combination of factors that are not modelled in this attempt. Such factors are
+
+1. Environmental background conditions. As an example, it is apparent that  Puglia (a south-east Italian region) has a singular combination of climatic factors that deviate from the rest of the country.
+2. Population variables. The model does not use any variable directly connected to the population. As a consequence, it is possible to find a "red" area in a location that is not populated. 
+3. Social variables. Behavioural differences in different areas could explain differences in the infection incidence.
