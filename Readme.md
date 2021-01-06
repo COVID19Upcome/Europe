@@ -1,8 +1,6 @@
 Readme
-## Updates
-Due to uprise of the infection rate we decided to intensify the predictions rate to about twice a week. 
-As we have more than 7 months of daily observations, we combined all the prediction into a single file as a video in order to apreciate the spatio-temporal dynamic of the infection.
-
+## Updates 06/01/2021
+Our model is the original version trained with the thin data collection gathered in Feb-Mar 2020. The variables used to predict the viral outbreak (PM2.5 and O3) are now consistently outside the observed boundaries signalling a general intensification of the pandemic. We are planning to update the model based on a whole year data in Mar-Apr 2021. As the ozone concentration is low in all the countries monitored and will remain low until April (based on previous years data), our model suggests that the viral activity will be consistent till then. The PM2.5 values are expected to reach maximal values in Jan-Feb,  making the infections potentially even more aggressive.
 ## Description
 This repository is created to accompany the classifier/predictor described in the manuscript *Fronza R Lucic B*, "**Spatial-temporal variations of atmospheric factors contribute to SARS-CoV-2 outbreak**". It contains the daily predictions of the simple ANN model on the escalation risk of the SARS-Cov-2 in 154 spots in the major European countries.
 
