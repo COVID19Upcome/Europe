@@ -1,4 +1,6 @@
 Readme
+## Updates 15/03/2021
+Our simple model expects that we will enter in the last wave of the european sars-cov-2 outbrake.  As usual the predictions are purely made using the two variable model trained with the early 2020 italian data. The predicitons of todays (from 11/02/2021 to 18/03/2021) nicely show the general increase of the predicted viral activity.
 ## Updates 06/01/2021
 Our model is the original version trained with the thin data collection gathered in Feb-Mar 2020. The variables used to predict the viral outbreak (PM2.5 and O3) are now consistently outside the observed boundaries signalling a general intensification of the pandemic. We are planning to update the model based on a whole year data in Mar-Apr 2021. As the ozone concentration is low in all the countries monitored and will remain low until April (based on previous years data), our model suggests that the viral activity will be consistent till then. The PM2.5 values are expected to reach maximal values in Jan-Feb,  making the infections potentially even more aggressive.
 ## Description
