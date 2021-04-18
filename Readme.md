@@ -1,4 +1,6 @@
 Readme
+## Updates 15/04/2021
+The model expects a generalized shutdown of the viral activity in Europe.
 ## Updates 15/03/2021
 Our simple model expects that we will enter in the last wave of the european sars-cov-2 outbrake.  As usual the predictions are purely made using the two variable model trained with the early 2020 italian data. The predicitons of todays (from 11/02/2021 to 18/03/2021) nicely show the general increase of the predicted viral activity.
 ## Updates 06/01/2021
