@@ -1,4 +1,6 @@
 Readme
+## Updates 26/04/2021
+Due to some issues with the remote data provider (ECMWF) the first part of the month predictions (01-15) have been delayed. 
 ## Updates 21/04/2021
 The video of the last prediction ([last-prediction.mp4](./last-prediction.mp4)) is  in the main folder of the repository
 ## Updates 15/04/2021
