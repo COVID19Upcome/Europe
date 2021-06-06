@@ -1,4 +1,6 @@
-Readme
+
+## Updates 06/06/2021
+The new predictions are imported. In general we see we are entering in a status that is similar to the status observed in 2020 in the same period. For a general overview on the last year see [here](./overview.md)
 ## Updates 26/04/2021
 Due to some issues with the remote data provider (ECMWF) the first part of the month predictions (01-15) have been delayed. 
 ## Updates 21/04/2021
