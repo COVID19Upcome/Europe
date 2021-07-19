@@ -4,7 +4,7 @@
 3.  [Periods and Figures discussion](#org2cb4de6)
 
 In this general overview we compare the average profile of O3,
-PM2.5 and infection in precise periods of time.
+PM2.5 and infection in defined periods of time.
 
 
 <a id="orgf3872a5"></a>
@@ -17,14 +17,15 @@ Environmental data are downloaded from
 <https://www.regional.atmosphere.copernicus.eu/> and elaborated as
 described in the original paper (<https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7354543/>)
 
+Average daily maximum (AdM) concentration of ozone and pm2.5 are expressed as ppm and ug/m3 respectively (<https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7354543/>).
 
 <a id="orgfc87f34"></a>
 <a id="org2cb4de6"></a>
 
 # Periods and Figures discussion
 
-The original figures are modified to describe general observations
-regarding three main periods (in Europe) starting from 2020-02-01.
+The original figures are modified to express overall observations
+concerning three foremost periods (in Europe) starting from 2020-02-01.
 
 <table id="org163aa7e" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -73,9 +74,9 @@ regarding three main periods (in Europe) starting from 2020-02-01.
 </tbody>
 </table>
 
-For simplicity, we approximate the infectivity with two states:
+For simplicity, we approximate the viral infectivity with only two states:
 infective (I) and non-infective (N). Moreover, we decided that for
-being considered non-infective, the virus must drop under 100 cases
+being considered non-infective, the virus must drop under 100 cases. 
 
 We selected those periods because we find that contain main
 events. We can summarize our observation here:
